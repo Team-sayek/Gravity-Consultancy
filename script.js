@@ -1,4 +1,3 @@
-/* toggle navbar */
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 menuIcon.onclick = () => {
@@ -6,7 +5,6 @@ menuIcon.onclick = () => {
   navbar.classList.toggle('active');
 };
 
-/* active nav on scroll */
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
 
@@ -25,7 +23,6 @@ window.onscroll = () => {
   });
 };
 
-/* scroll reveal */
 ScrollReveal({
   reset: true,
   distance: '60px',
@@ -35,7 +32,6 @@ ScrollReveal({
 ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
 ScrollReveal().reveal('.home-img, .services-box, .contact form', { origin: 'bottom' });
 
-/* typing text */
 const typed = new Typed('.multiple-text', {
   strings: ['Consultants', 'Advisors', 'Innovators'],
   typeSpeed: 100,

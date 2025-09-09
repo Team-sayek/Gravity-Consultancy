@@ -24,7 +24,6 @@ section {
   padding: 8rem 9% 2rem;
 }
 
-/* header */
 .header {
   position: fixed;
   width: 100%;
@@ -61,7 +60,6 @@ section {
   display: none;
 }
 
-/* home */
 .home {
   display: flex;
   align-items: center;
@@ -100,7 +98,6 @@ section {
   color: #fff;
 }
 
-/* about */
 .about {
   display: flex;
   align-items: center;
@@ -113,7 +110,6 @@ section {
   border-radius: 10px;
 }
 
-/* services */
 .services-container {
   display: flex;
   gap: 2rem;
@@ -145,7 +141,6 @@ section {
   font-size: 1.8rem;
 }
 
-/* contact */
 .contact form {
   max-width: 600px;
   margin: auto;
@@ -162,7 +157,6 @@ section {
   border-radius: 5px;
 }
 
-/* footer */
 .footer {
   background: var(--second-bg);
   padding: 2rem 9%;
